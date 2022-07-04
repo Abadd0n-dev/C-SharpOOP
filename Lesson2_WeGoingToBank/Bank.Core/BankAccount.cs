@@ -23,7 +23,7 @@ namespace Bank.Core
         
         public Guid Id => _id;
         public BankAccountType Type => _type;
-        public decimal Balance => _balance;
+        public decimal Balance => _balance; 
 
         public void Deposit(decimal sum)
         {
@@ -34,7 +34,7 @@ namespace Bank.Core
         {
             if (_balance - sum < 0) return false;
             _balance -= sum;
-            return true;
+            return true; 
         }
     }
 }
