@@ -15,5 +15,3 @@ printer.Print(bankAccount3);
 bankAccount.Deposit(19.2m);
 bankAccount.Deposit(144.67m);
 bankAccount.TryWithdraw(120.2m);
-
-printer.Print(bankAccount);
