@@ -1,1 +1,1 @@
-# 📚 Solving OOP problems C# 
+# 📚 Solving tasks OOP C# 
